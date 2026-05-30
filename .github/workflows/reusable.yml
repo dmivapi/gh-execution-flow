@@ -23,4 +23,4 @@ jobs:
       - name: Output information
         run: |
           echo "Deploying & uploading..."
-          echo "${{ secrets.some-secret }}"
+          echo "Not for production, just learning secrets: ${{ secrets.some-secret }}"
